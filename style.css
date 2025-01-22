@@ -185,7 +185,7 @@
 .highlight-blue {
   color: #01acfd;
 }
-hr {
+.mobile-only {
   display: none;
 }
 
@@ -505,11 +505,11 @@ hr {
   .mobile-menu-button {
     display: block;
   }
-  hr {
-    border: none;
-    height: 2px;
-    background-color: orange;
-    margin: 0;
+  .mobile-only {
+    display: block;
+    border: 0;
+    border-top: 3px solid orange;
+    margin: 10px 0;
   }
   .brand-container {
     font-size: 24px;
